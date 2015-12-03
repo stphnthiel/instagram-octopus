@@ -2,7 +2,7 @@ var fs = require('fs');
 var request = require('request');
 var _ = require('lodash');
 
-var FILE_NAME = process.argv[2] ? process.argv[2] : 'kimkardashian.json';
+var FILE_NAME = process.argv[2];
 
 var file_name_pattern = /\/([^\/]+)$/;
 

@@ -8,7 +8,7 @@ ig.use({ access_token: '<YOUR_ACCESS_TOKEN>' });
 ig.use({ client_id: '<YOUR_CLIENT_ID>',
          client_secret: '<YOUR_CLIENT_SECRET>' });
 
-var USER_NAME = process.argv[2] ? process.argv[2] : 'kimkardashian';
+var USER_NAME = process.argv[2];
 var FILE_NAME = 'downloads/' + USER_NAME + '.json';
 
 function get_older(user_id, timeline, complete_callback, error_callback) {
